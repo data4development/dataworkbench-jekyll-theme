@@ -1,29 +1,29 @@
 
 // Partly based on Mermaid LESS sources
 // Taken from https://github.com/knsv/mermaid/tree/master/src/less/default
-@import "_flatly";
+@import 'flatly';
 
 .language-mermaid svg {
 
-  font-size: 1em;
   font-family: $cs-font;
+  font-size: 1em;
 
   .node {
     background-color: $cs-success;
 
     .label {
-      color: white;
+      color: $cs-whitetext;
     }
 
     ellipse,
     rect {
-      fill:$cs-primary;
+      fill: $cs-primary;
       stroke: $cs-primary;
     }
 
     polygon,
     circle {
-      fill:$cs-warning;
+      fill: $cs-warning;
       stroke: inherit;
     }
 
@@ -37,15 +37,15 @@
   }
 
   .actor {
-    stroke: $cs-primary;
     fill: $cs-primary;
+    stroke: $cs-primary;
 
   }
 
   text.actor {
-    fill:$cs-whitetext;
-    stroke:none;
-    font-family: Lato,Roboto;
+    fill: $cs-whitetext;
+    font-family: $cs-font;
+    stroke: none;
   }
 
   .edgePath {
@@ -65,34 +65,34 @@
   }
 
   .actor-line {
-    stroke:$cs-success;
-    stroke-width:1.5;
+    stroke: $cs-success;
+    stroke-width: 1.5;
   }
 
   .messageLine0 {
-    stroke-dasharray: "2 2";
-    marker-end:"url(#arrowhead)";
-    stroke:$cs-primary;
+    marker-end: 'url(#arrowhead)';
+    stroke: $cs-primary;
+    stroke-dasharray: '2 2';
   }
 
   .messageLine1 {
-    stroke-dasharray: "2 2";
-    stroke:$cs-lighttext;
+    stroke: $cs-lighttext;
+    stroke-dasharray: '2 2';
   }
 
   #arrowhead {
-    fill:$cs-primary;
+    fill: $cs-primary;
   }
 
   .messageText {
-    fill:$cs-maintext;
-    font-size:14px;
-    stroke:none;
+    fill: $cs-maintext;
+    font-size: 14px;
+    stroke: none;
   }
 
   .label {
-    font-size: inherit;
     color: $cs-primary;
+    font-size: inherit;
   }
 
   .labelBox {
@@ -101,50 +101,58 @@
   }
 
   .labelText {
-    fill:white;
-    stroke:none;
+    fill: $cs-whitetext;
+    stroke: none;
   }
 
   .loopText {
-    fill:$cs-warning;
-    stroke:none;
+    fill: $cs-warning;
+    stroke: none;
+
     tspan {
       fill: $cs-info;
     }
   }
 
   .loopLine {
-    xstroke-dasharray: "2 2";
-    marker-end:"url(#arrowhead)";
+    marker-end: 'url(#arrowhead)';
     stroke: $cs-warning;
+    xstroke-dasharray: '2 2';
   }
 
   .note {
-    stroke: $cs-info;
     fill: $cs-info;
+    stroke: $cs-info;
   }
 
   .noteText {
-    fill:white;
-    stroke:none;
+    fill: $cs-whitetext;
+    stroke: none;
+
     tspan {
-      fill: white;
+      fill: $cs-whitetext;
     }
   }
 
-  .cluster rect {
-    fill: $cs-bg-primary;
-    stroke: $cs-bg-primary;
+  .cluster {
+    rect {
+      fill: $cs-bg-primary;
+      stroke: $cs-bg-primary;
+    }
   }
 
-  g:not([class]) rect:not([class]) {
-    fill: white;
-    stroke: $cs-success;
+  g:not([class]) {
+    rect:not([class]) {
+      fill: $cs-whitetext;
+      stroke: $cs-success;
+    }
   }
 
-  g.node rect:not([class]) {
-    fill: $cs-success;
-    stroke: $cs-success;
+  g.node {
+    rect:not([class]) {
+      fill: $cs-success;
+      stroke: $cs-success;
+    }
   }
 
 }
