@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "dataworkbench-jekyll-theme"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["Rolf Kleef"]
   spec.email         = ["rolf@data4development.nl"]
 
   spec.summary       = %q{Theme assembly for DataWorkbench: Jekyll, Typora.}
-  spec.homepage      = "https://github.com/data4development/dataworkbench-theme"
+  spec.homepage      = "https://github.com/data4development/dataworkbench-jekyll-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
