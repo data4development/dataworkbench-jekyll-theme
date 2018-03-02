@@ -1,0 +1,32 @@
+body {
+  color: $cs-maintext;
+}
+
+h1, h2 {
+  color: $cs-danger;
+}
+
+:target:before {
+  content:"";
+  display:block;
+  height: 70px; /* fixed header height*/
+  margin: -70px 0 0; /* negative fixed header height */
+}
+
+h3 {
+  color: $cs-success;
+}
+
+code,
+tt {
+    color: $cs-danger;
+    background-color: $cs-bg-primary;
+}
+
+a {
+  color: $cs-info;
+}
+
+footer a {
+  color: $cs-success;
+}
