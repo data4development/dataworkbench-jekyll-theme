@@ -47,6 +47,15 @@ To build a new version of the gem, update the version in `dataworkbench-jekyll-t
 
 With sufficient privileges, the new gem can be published on RubyGems with `gem push dataworkbench-jekyll-theme`. After a `bundle update` this should be available in the documentation sites (such as the `gh-pages` branch in this repository).
 
+To work on both the theme and the documentation at the same time:
+
+ - Checkout this repository as usual.
+ - Checkout the documentation in a folder `docs`, using the same repository:
+
+`git worktree add docs gh-pages`
+
+* Run `bundle exec jekyll serve` in the docs folder to preview the documentation.
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
