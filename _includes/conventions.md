@@ -23,6 +23,20 @@ There are a few ways to highlight a paragraph.
 
 A warning block offers information about potential pitfalls or errors.
 
+To create a warning block, include a line above it like this:
+
+```md
+{.warning}
+
+This paragraph will become a warning.
+```
+
 {:.info}
 
 An info block provides important hints or pointers.
+
+Creating an info block works the same as creating a warning block.
+
+**Note 1**: To start a page with a warning or info block, use shift-enter between the tag and the text.
+
+**Note 2**: It is not possible to create a block with more than  1 paragraph. (When using an HTML <div> block, Markdown in the block would not be parsed.)
