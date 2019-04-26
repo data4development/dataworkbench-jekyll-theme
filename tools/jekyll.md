@@ -6,26 +6,24 @@ suborder: 1
 
 The Data4Development DataWorkbench documentation lives on GitHub Pages, which uses [Jekyll](https://jekyllrb.com/) to create a static website from source files.
 
-The `master` branch of the DataWorkbench Jekyll Theme repository contains a Jekyll theme for our documentation.
+The `master` branch of the [DataWorkbench Jekyll Theme repository](https://github.com/data4development/dataworkbench-jekyll-theme) contains a Jekyll theme for our documentation.
 
 The `gh-pages` branch contains documentation and additional style libraries for other documentation tools.
 
 The [Jekyll theme is available via RubyGems](https://rubygems.org/gems/dataworkbench-jekyll-theme).
 
-## Development
+## Using the theme
 
-### Local use
-
-Add this line to your Jekyll site's `Gemfile`:
+Add these line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "dataworkbench-jekyll-theme"
+gem "github-pages", group: :jekyll_plugins
 ```
 
-Create a file `_config_dev.yml` to contain settings that should not be used on GitHub Pages, and add this line:
+Create or adapt a file `_config.yml`, and add this line:
 
 ```yaml
-theme: dataworkbench-jekyll-theme
+remote-theme: data4development/dataworkbench-jekyll-theme
 ```
 
 And then execute:
@@ -43,22 +41,18 @@ $ gem install dataworkbench-jekyll-theme
 You can now run
 
 ```bash
-$ bundle exec jekyll serve --config _config.yml,_config_dev.yml
+$ bundle exec jekyll serve
 ```
 
 and open your browser at `http://localhost:4000`.
 
-### Using the theme on GitHub
+## Developing this theme
 
-To use the theme on GitHub Pages, refer to the repository using this line in the regular `_config.yml`:
+Checkout the repository as usual.
 
-```yaml
-remote-theme: data4development/dataworkbench-jekyll-theme
-```
+You can now run Jekyll in the main folder as usual, and preview the documentation.
 
-{:.warning}
-
-The `remote-theme` on GitHub Pages will pull the latest version of the theme from its GitHub repository. This may be a newer version than the available Gem on your local machine.
+Create specific demos or test cases here that are needed in other projects, to document what is required and how it works.
 
 ### Releasing a new version
 
@@ -78,22 +72,6 @@ $ gem push dataworkbench-jekyll-theme
 ```
 
 After a `bundle update` this should be available in the documentation sites (such as the `gh-pages` branch in this repository).
-
-### Developing this theme
-
-To work on both the theme and the documentation at the same time, checkout the repository as usual.
-
-Then, checkout the documentation in a folder `docs`, working with the same repository:
-
-```bash
-$ git worktree add docs gh-pages
-```
-
-You can now run Jekyll in the docs folder as usual, and preview the documentation.
-
-- To test new CSS styles, create `assets/css/main.scss` with the content `@import "dataworkbench-theme";` and add the styles.
-- To test new layouts, create `_includes` or `_layouts` as needed, and copy or create the appropriate files in there.
-- When ready for release, copy or move the files or styles to a suitable place in the main folder, and commit to git.
 
 ## Theme structure
 
