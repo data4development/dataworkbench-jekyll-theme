@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="574px" preserveAspectRatio="none" style="width:828px;height:574px;" version="1.1" viewBox="0 0 828 574" width="828px" zoomAndPan="magnify"><defs/><g><!--entity user--><ellipse cx="525.5" cy="18" fill="#FFFFFF" rx="8" ry="8" style="stroke: #2C3E50; stroke-width: 2.0;"/><path d="M525.5,26 L525.5,53 M512.5,34 L538.5,34 M525.5,53 L512.5,68 M525.5,53 L538.5,68 " fill="#FFFFFF" style="stroke: #2C3E50; stroke-width: 2.0;"/><text fill="#2C3E50" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="509.5" y="88.9951">User</text><!--entity developer--><ellipse cx="349.5" cy="168" fill="#FFFFFF" rx="8" ry="8" style="stroke: #2C3E50; stroke-width: 2.0;"/><path d="M349.5,176 L349.5,203 M336.5,184 L362.5,184 M349.5,203 L336.5,218 M349.5,203 L362.5,218 " fill="#FFFFFF" style="stroke: #2C3E50; stroke-width: 2.0;"/><text fill="#2C3E50" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="314" y="238.9951">Developer</text><!--entity appman--><ellipse cx="199.5" cy="168" fill="#FFFFFF" rx="8" ry="8" style="stroke: #2C3E50; stroke-width: 2.0;"/><path d="M199.5,176 L199.5,203 M186.5,184 L212.5,184 M199.5,203 L186.5,218 M199.5,203 L212.5,218 " fill="#FFFFFF" style="stroke: #2C3E50; stroke-width: 2.0;"/><text fill="#2C3E50" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="130" y="238.9951">Application Manager</text><!--entity dwb--><ellipse cx="485.5" cy="168" fill="#FFFFFF" rx="8" ry="8" style="stroke: #2C3E50; stroke-width: 2.0;"/><path d="M485.5,176 L485.5,203 M472.5,184 L498.5,184 M485.5,203 L472.5,218 M485.5,203 L498.5,218 " fill="#FFFFFF" style="stroke: #2C3E50; stroke-width: 2.0;"/><text fill="#2C3E50" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="430" y="238.9951">DataWorkbench</text><ellipse cx="121.6274" cy="536.5255" fill="#18BC9C" rx="115.6274" ry="25.5255" style="stroke: #18BC9C; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="210" x="16.6274" y="541.1739">Get human-readable feedback</text><ellipse cx="393.2717" cy="536.5543" fill="#18BC9C" rx="120.7717" ry="26.5543" style="stroke: #18BC9C; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="221" x="282.7717" y="541.2028">Get machine-readable feedback</text><ellipse cx="257.6621" cy="431.4291" fill="#18BC9C" rx="61.1621" ry="17.4291" style="stroke: #18BC9C; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="209.6621" y="436.0775">Access an API</text><ellipse cx="392.3371" cy="330.6674" fill="#18BC9C" rx="101.3371" ry="22.6674" style="stroke: #18BC9C; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="302.8371" y="335.3158">Run the validator software</text><ellipse cx="730.4744" cy="202.3949" fill="#18BC9C" rx="87.4744" ry="19.8949" style="stroke: #18BC9C; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="Roboto" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="656.4744" y="207.0433">Access a web service</text><!--link user to appman--><path d="M486.097,70.785 C439.495,91.3 359.641,126.68 291.5,158 C285.881,160.583 280.079,163.272 274.249,165.991 " fill="none" id="user-appman" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="none" points="483.329,64.355,504.455,62.715,488.963,77.172,483.329,64.355" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link appman to developer--><path d="M294.271,202.5 C299.152,202.5 304.032,202.5 308.912,202.5 " fill="none" id="appman-developer" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="none" points="294.207,209.5,274.207,202.5,294.207,195.5,294.207,209.5" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link developer to dwb--><path d="M410.168,202.5 C415.04,202.5 419.911,202.5 424.783,202.5 " fill="none" id="developer-dwb" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="none" points="410.141,209.5,390.141,202.5,410.141,195.5,410.141,209.5" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link api to mfeedback--><path d="M294.237,460.323 C315.063,476.0958 340.89,495.6557 360.979,510.8699 " fill="none" id="api-mfeedback" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="none" points="289.873,465.7987,278.155,448.143,298.325,454.638,289.873,465.7987" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link api to hfeedback--><path d="M220.785,460.306 C199.505,476.4229 172.998,496.498 152.726,511.8505 " fill="none" id="api-hfeedback" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="none" points="216.675,454.638,236.845,448.143,225.127,465.7987,216.675,454.638" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link run to api--><path d="M347.789,364.288 C324.515,381.356 297.144,401.428 278.69,414.961 " fill="none" id="run-api" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="none" points="343.932,358.436,364.2,352.254,352.211,369.726,343.932,358.436" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link ws to run--><path d="M667.702,226.91 C602.702,251.141 502.46,288.509 442.587,310.829 " fill="none" id="ws-run" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="none" points="665.474,220.27,686.659,219.843,670.364,233.388,665.474,220.27" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link user to ws--><path d="M546.666,68.781 C583.458,95.343 659.269,150.075 701.128,180.295 " fill="none" id="user-ws" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="#2C3E50" points="705.318,183.32,700.3606,174.8098,701.2635,180.3941,695.6791,181.297,705.318,183.32" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link appman to api--><path d="M200.673,247.2 C202.468,277.471 206.864,318.39 217.5,353 C223.707,373.199 235.035,394.408 244.055,409.522 " fill="none" id="appman-api" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="#2C3E50" points="246.772,414.01,245.5318,404.2395,244.1821,409.733,238.6886,408.3834,246.772,414.01" style="stroke: #2C3E50; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="223.5" y="335.0669">access</text><!--link developer to run--><path d="M364.419,247.215 C370.75,265.766 377.923,286.787 383.435,302.938 " fill="none" id="developer-run" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="#2C3E50" points="385.09,307.786,385.9696,297.9765,383.4755,303.0538,378.3981,300.5597,385.09,307.786" style="stroke: #2C3E50; stroke-width: 1.0;"/><!--link dwb to ws--><path d="M546.062,202.5 C573.656,202.5 606.941,202.5 637.595,202.5 " fill="none" id="dwb-ws" style="stroke: #2C3E50; stroke-width: 1.0;"/><polygon fill="#2C3E50" points="642.887,202.5,633.887,198.5,637.887,202.5,633.887,206.5,642.887,202.5" style="stroke: #2C3E50; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="50" x="569.5" y="190.5669">operate</text><!--
+@startuml
+
+
+skinparam shadowing false
+
+skinparam Default {
+  FontColor #2C3E50
+  FontName Roboto
+  TextAlignment center
+}
+
+skinparam LifelineStrategy solid
+
+skinparam Padding 5
+skinparam Roundcorner 5
+skinparam minClassWidth 150
+
+skinparam Activity {
+  BackgroundColor #18BC9C
+  BarColor #F39C12
+  BorderColor #18BC9C
+  EndColor #2C3E50
+  FontColor white
+  StartColor #2C3E50
+}
+
+skinparam ActivityDiamond {
+  BackgroundColor #F39C12
+  BorderColor #F39C12
+  FontColor white
+}
+
+skinparam Actor {
+  BackgroundColor white
+  BorderColor #2C3E50
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Boundary {
+  BackgroundColor white
+  BorderColor #2C3E50
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Control {
+  BackgroundColor white
+  BorderColor #2C3E50
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Entity {
+  BackgroundColor white
+  BorderColor #2C3E50
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Arrow {
+  Color #2C3E50
+}
+
+skinparam Cloud {
+  BackgroundColor white
+  BorderColor #95a5a6
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Frame {
+  BackgroundColor white
+  BorderColor #3498DB
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Agent {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Artifact {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Component {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Database {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam File {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Stack {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Storage {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Folder {
+  BackgroundColor white
+  BorderColor #3498DB
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Node {
+  BackgroundColor white
+  BorderColor #3498DB
+  FontColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Package {
+  BackgroundColor white
+  BorderColor #3498DB
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Queue {
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Interface {
+  BackgroundColor white
+  BorderColor #2C3E50
+  StereotypeFontColor #95a5a6
+}
+
+skinparam Note {
+  BackgroundColor #3498DB
+  BorderColor #3498DB
+  FontColor white
+}
+
+skinparam Object {
+  AttributeFontColor #2C3E50
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  EndColor #2C3E50
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+skinparam Participant {
+  BackgroundColor #ecf0f1
+  BorderColor #2C3E50
+  FontColor white
+}
+
+skinparam Partition {
+  BorderColor #F39C12
+  FontColor #3498DB
+  FontStyle normal
+}
+
+skinparam Rectangle {
+  BackgroundColor white
+  BorderColor #F39C12
+  FontColor #3498DB
+  FontStyle normal
+  StereotypeFontColor #f5f7f7
+}
+
+skinparam Sequence {
+  LifeLineBackgroundColor #ecf0f1
+  LifeLineBorderColor #18BC9C
+
+  GroupBackgroundColor #F39C12
+  GroupBorderColor #F39C12
+  GroupFontColor #3498DB
+  GroupFontStyle normal
+
+  GroupHeaderFontColor white
+  GroupHeaderFontStyle normal
+
+}
+
+skinparam State {
+  AttributeFontColor #2C3E50
+  BackgroundColor #18BC9C
+  BorderColor #0f7864
+  EndColor #2C3E50
+  FontColor white
+  StartColor #2C3E50
+}
+
+skinparam Swimlane {
+  BorderColor #3498DB
+  TitleFontColor #3498DB
+  TitleFontSize 13
+}
+
+skinparam Usecase {
+  BackgroundColor #18BC9C
+  BorderColor #18BC9C
+  FontColor white
+  StereotypeFontColor #0f7864
+}
+
+actor user as "User"
+actor developer as "Developer"
+actor appman as "Application Manager"
+actor dwb as "DataWorkbench"
+
+user <|- - appman
+appman <|-right- developer
+developer <|-right- dwb
+
+usecase hfeedback as "Get human-readable feedback"
+usecase mfeedback as "Get machine-readable feedback"
+usecase api as "Access an API"
+usecase run as "Run the validator software"
+usecase ws as "Access a web service"
+
+(api) <|- - (mfeedback)
+(api) <|- - (hfeedback)
+(run) <|- - (api)
+(ws) <|- - (run)
+
+user - -> (ws)
+
+appman -> (api): "access"
+
+developer -down-> (run)
+
+dwb -> (ws): "operate"
+
+@enduml
+
+PlantUML version 1.2017.20(Mon Dec 11 16:57:05 UTC 2017)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_141-8u141-b15-1~deb9u1-b15
+Operating System: Linux
+OS Version: 4.10.0-42-generic
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

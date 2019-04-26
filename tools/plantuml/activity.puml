@@ -1,0 +1,17 @@
+@startuml
+|Client|
+start
+:Request validation>
+->[GET ...?url=...];
+|API|
+:Get file from URL;
+:Send file to validator>
+|Validator|
+:Run validation;
+|API|
+:Receive results<
+:Deliver results;
+|Client|
+:Receive validation results<
+stop
+@enduml

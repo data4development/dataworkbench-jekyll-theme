@@ -1,0 +1,37 @@
+@startuml
+  interface "Markdown files" as md
+  interface "Images" as images
+  interface "PlantUML files" as puml
+
+  package Typora {
+    Typora --> md
+    component "Mermaid\ndiagrams" as mmd1
+    [CodeMirror\nsyntax highlighting]
+  }
+
+  package Atom {
+    component "PlantUML" as PU1
+    component "GraphViz" as GV1
+    Atom --> puml
+    Atom --> md
+  }
+
+  package "Developer Engine" as Dev {
+    component "PlantUML" as PU2
+    component "GraphViz" as GV2
+    PU1 .. PU2
+    puml --> Dev
+    images <-- Dev
+    GV1 .. GV2
+  }
+
+  package Jekyll {
+    md --> Jekyll
+    images -> Jekyll
+    component "Mermaid\ndiagrams" as mmd2
+    mmd1 .. mmd2
+    [Pygments\nsyntax highlighting]
+    [Bootstrap]
+  }
+
+@enduml

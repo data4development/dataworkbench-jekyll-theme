@@ -1,0 +1,18 @@
+
+# Site settings
+title: DataWorkbench Styling
+email: rolf@data4development.nl
+description: Repository with Flatly styling for Jekyll and various tools
+brand: DataWorkbench
+github: https://github.com/data4development/dataworkbench-jekyll-theme
+
+defaults:
+  -
+    values:
+      layout: "default"
+
+remote_theme: data4development/dataworkbench-jekyll-theme
+
+# Uncomment the next line to use jekyll on your local machine
+# (see documentation for alternatives, more info)
+# theme: dataworkbench-jekyll-theme
