@@ -12,23 +12,32 @@ In general, code blocks have the same left-hand border colour.
 There is one main variation for code blocks.
 
 ```bash
-$ This is a block of command line code, using bash syntax highlighting.
-$ The command line blocks use a different left-hand border colour.
-$ Usually, a command line begins with '$ '.
+# This is a sample block of command line code, using bash syntax highlighting.
+
+ls -lh
+for f in *; do
+  cp $f ${f}2
+done
 ```
 
 There are a few ways to highlight a paragraph.
+
+To create a warning block, include a line above it like this:
+
+```md
+{:.warning}
+
+This paragraph will become a warning.
+```
 
 {:.warning}
 
 A warning block offers information about potential pitfalls or errors.
 
-To create a warning block, include a line above it like this:
-
 ```md
-{.warning}
+{:.info}
 
-This paragraph will become a warning.
+This paragraph will become an info block.
 ```
 
 {:.info}
