@@ -27,4 +27,4 @@ With sufficient privileges, the new gem can be published on RubyGems:
 gem push dataworkbench-jekyll-theme-1.2.3.gem
 ```
 
-After a `bundle update` this should be available in the documentation sites (such as the `gh-pages` branch in this repository).
+After a `bundle update` this should be available in the documentation sites (such as this repository).
