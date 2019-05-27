@@ -29,19 +29,19 @@ remote-theme: data4development/dataworkbench-jekyll-theme
 And then execute:
 
 ```bash
-$ bundle
+bundle
 ```
 
 Or install it yourself as:
 
 ```bash
-$ gem install dataworkbench-jekyll-theme
+gem install dataworkbench-jekyll-theme
 ```
 
 You can now run
 
 ```bash
-$ bundle exec jekyll serve
+bundle exec jekyll serve
 ```
 
 and open your browser at `http://localhost:4000`.
@@ -62,13 +62,13 @@ To add a custom directory to your theme-gem, please edit the regexp in `datawork
 To build a new version of the gem, update the version in `dataworkbench-jekyll-theme.gempec` and use 
 
 ````bash
-$ gem build dataworkbench-jekyll-theme
+gem build dataworkbench-jekyll-theme
 ````
 
 With sufficient privileges, the new gem can be published on RubyGems:
 
 ```bash
-$ gem push dataworkbench-jekyll-theme
+gem push dataworkbench-jekyll-theme
 ```
 
 After a `bundle update` this should be available in the documentation sites (such as the `gh-pages` branch in this repository).
