@@ -28,7 +28,7 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          {% assign sorted_pages = site.pages | sort:"order", "last" %}
+          {% assign sorted_pages = site.pages | where_exp: "item", "item.menu != false" | sort:"order", "last" %}
           {% for node in sorted_pages %}
             {% assign node_url_parts = node.url | split: '/' %}
             {% assign node_url_parts_size = node_url_parts | size %}
