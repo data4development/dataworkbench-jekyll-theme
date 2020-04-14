@@ -57,5 +57,6 @@ pre.highlight {
 .language-bash {
   pre.highlight {
     border-left-color: $cs-primary;
+    background-color: $cs-bg-terminal;
   }
 }
