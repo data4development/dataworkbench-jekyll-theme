@@ -3,6 +3,7 @@
 // Taken from https://github.com/knsv/mermaid/tree/master/src/less/default
 @import 'flatly';
 
+.md-diagram-panel-preview svg,
 .language-mermaid svg {
 
   font-family: $cs-font;
