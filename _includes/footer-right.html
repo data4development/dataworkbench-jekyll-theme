@@ -1,6 +1,12 @@
 <h1>Sources and contributions</h1>
 <ul>
   {%- if site.github -%}
-  <li><a href="{{ site.github }}" target="_blank">Github</a></li>    
+  <li><a href="https://github.com/{{ site.github }}" target="_blank">Github</a></li>    
   {%- endif -%}
 </ul>
+<p>
+  {%- if site.github -%}
+    <a href="https://github.com/{{ site.github }}/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/{{ site.github }}?label=License"></a>&nbsp;
+  {%- endif -%}
+  <a href="/code_of_conduct.html"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg"></a>
+</p>

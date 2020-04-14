@@ -4,7 +4,7 @@ title: DataWorkbench Styling
 email: rolf@data4development.nl
 description: Repository with Flatly styling for Jekyll and various tools
 brand: DataWorkbench
-github: https://github.com/data4development/dataworkbench-jekyll-theme
+github: data4development/dataworkbench-jekyll-theme
 
 defaults:
   -
