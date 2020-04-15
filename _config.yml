@@ -11,4 +11,4 @@ defaults:
     values:
       layout: "default"
 
-theme: dataworkbench-jekyll-theme
+remote_theme: dataworkbench-jekyll-theme
