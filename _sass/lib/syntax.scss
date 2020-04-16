@@ -37,18 +37,18 @@
   .mi { color: $cs-warning; font-weight: bold; } // Literal.Number.Integer
   .mo { color: $cs-warning; font-weight: bold; } // Literal.Number.Oct
   .sa { color: $cs-danger; } // Literal.String.Affix
-  .sb { background-color: $cs-bg-primary; color: $cs-danger; } // Literal.String.Backtick
-  .sc { background-color: $cs-bg-primary; color: $cs-danger; } // Literal.String.Char
-  .dl { background-color: $cs-bg-primary; color: $cs-danger; } // Literal.String.Delimiter
-  .sd { background-color: $cs-bg-primary; color: $cs-danger; } // Literal.String.Doc
-  .s2 { background-color: $cs-bg-primary; color: $cs-danger; } // Literal.String.Double
-  .se { background-color: $cs-bg-primary; color: $cs-info; } // Literal.String.Escape
-  .sh { background-color: $cs-bg-primary; color: $cs-danger; } // Literal.String.Heredoc
-  .si { background-color: $cs-bg-primary; color: $cs-info; } // Literal.String.Interpol
-  .sx { background-color: #f0fff0; color: $cs-info; } // Literal.String.Other
+  .sb { color: $cs-danger; } // Literal.String.Backtick
+  .sc { color: $cs-danger; } // Literal.String.Char
+  .dl { color: $cs-danger; } // Literal.String.Delimiter
+  .sd { color: $cs-danger; } // Literal.String.Doc
+  .s2 { color: $cs-danger; } // Literal.String.Double
+  .se { color: $cs-info; } // Literal.String.Escape
+  .sh { color: $cs-danger; } // Literal.String.Heredoc
+  .si { color: $cs-info; } // Literal.String.Interpol
+  .sx { color: $cs-info; } // Literal.String.Other
   .sr { background-color: #fff0ff; color: $cs-info; } // Literal.String.Regex
-  .s1 { background-color: $cs-bg-primary; color: $cs-danger; } // Literal.String.Single
-  .ss { background-color: $cs-bg-primary; color: $cs-warning; } // Literal.String.Symbol
+  .s1 { color: $cs-danger; } // Literal.String.Single
+  .ss { color: $cs-warning; } // Literal.String.Symbol
   .il { color: $cs-warning; font-weight: bold; } // Literal.Number.Integer.Long
 
   .hll { background-color: $cs-bg-primary; }
